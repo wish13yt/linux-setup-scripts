@@ -11,8 +11,11 @@ def yay(ypkg):
     os.system(f"sudo yay -S {ypkg}")
 def pacman(ppkg):
     os.system(f"sudo pacman -S {ppkg}")
-def fetchLists(plistu, ylistu):
+def fetchLists(plistu, ylistu, useaur):
     if not os.path.exists("sources"):
         os.mkdir("sources")
     urllib.request.urlretrieve(plistu, "sources/plist.txt")
-    urllib.request.urlretrieve(ylistu, "sources/ylist.txt")
+    if useaur == True:
+        urllib.request.urlretrieve(ylistu, "sources/ylist.txt")
+    else:
+        print("yay/aur disabled, not fetching ylist")
