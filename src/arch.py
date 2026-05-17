@@ -2,7 +2,9 @@
 # This is designed for me in specific, but there is an option
 import pkghelper as p
 useaur = True # change me to False if you don't trust the AUR
-addwallpaper = True # change me to False if you don't want a wallpaper
+addwallpaper = False # change me to True if you want a wallpaper
+# NOTE: Wallpaper is BUGGY!! Only works for KDE Plasma and doesn't change the wallpaper from my testing.
+# Also depends on plasma-apply-wallpaperimage
 print("These scripts, linux-setup-scripts (LSS) are licensed under the Unlicense, meaning this script has NO liablity or warrenty.")
 print("arch.py also assumes you use pacman and yay, no other installers are supported")
 print("I'm also assuming you use KDE and its apps were preinstalled, so those will not be included.")
