@@ -1,6 +1,6 @@
 # Howdy ho, neighborino!
 # This is designed for me in specific, but there is an option
-import pkghelper as p
+import archhelper as p
 useaur = True # change me to False if you don't trust the AUR
 addwallpaper = False # change me to True if you want a wallpaper
 # NOTE: Wallpaper is BUGGY!! Only works for KDE Plasma and doesn't change the wallpaper from my testing.
