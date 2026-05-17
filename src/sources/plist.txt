@@ -1,1 +1,8 @@
 discord
+vlc
+hyfetch
+kwalletmanager
+bitwarden
+transmission-gtk
+gparted
+flatpak

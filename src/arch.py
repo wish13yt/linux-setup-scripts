@@ -4,6 +4,7 @@ import pkghelper as p
 useaur = True # change me to False if you don't trust the AUR
 print("These scripts, linux-setup-scripts (LSS) are licensed under the Unlicense, leaving NO liablity or warrenty.")
 print("arch.py also assumes you use pacman and yay, no other installers are supported")
+print("I'm also assuming you use KDE and its apps were preinstalled, so those will not be included.")
 if useaur == True:
     ylistu = input("If there's a specific source you want to use for your yay packages, input it now. Otherwise, I'll just use the default (Wish's ylist.txt). ") or "https://wish13yt.github.io/linux-setup-scripts/ylist.txt"
 else:
